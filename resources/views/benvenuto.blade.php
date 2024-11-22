@@ -21,9 +21,9 @@
                 @auth
                     <a href="{{ url('/admin/projects') }}" class="btn btn-primary m-2">Projects
                     </a>
-                    <a href="{{ url('/home') }}" class="btn btn-primary m-2">Home</a>
+                    <a href="{{ url('/home') }}" class="btn btn-primary mx-5">Home</a>
                 @else
-                    <a href="{{ route('login') }}" class="">Log
+                    <a href="{{ route('login') }}" class="mx-5">Log
                         in</a>
 
                     @if (Route::has('register'))
